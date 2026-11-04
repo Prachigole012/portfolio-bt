@@ -1,0 +1,97 @@
+:root {
+    --bs-primary-rgb: 214, 167, 123;
+    --bs-warning-border-subtle: #d6a77b;
+    /* --bs-link-hover-color-rgb: 214, 167, 123; */
+    /* --bs-link-hover-color-rgb: 10, 88, 202; */
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.purple{
+    color: #c9a4e5;
+}
+
+.text{
+    color: rgb(165, 165, 161);
+}
+
+.btn-primary {
+    --bs-btn-bg: #d6a77b;
+    --bs-btn-border-color: #d6a77b;
+    --bs-btn-hover-bg: #daac81;
+    --bs-btn-hover-border-color: #6b5642;
+}
+
+.btn:hover {
+    translate: 0 -5px;
+}
+
+
+.aboutpanal {
+    padding: 1.5rem;
+    border: 1px solid;
+    background: rgba(255, 255, 255, 0.018);
+}
+
+.orbit-2 {
+    border-style: dashed;
+}
+
+.aesthetic {
+    width: 220px;
+    height: 260px;
+    z-index: 1;
+    background: linear-gradient(145deg, rgba(214, 167, 123, .13), rgba(255, 255, 255, .015));
+    box-shadow: 0 25px 100px rgba(0, 0, 0, .28);
+    border: 1px solid rgba(214, 167, 123, .55);
+    transform: rotate(-5deg);
+}
+
+.signal-light div {
+    height: 8px;
+    width: 8px;
+}
+
+/* .skill{
+    height: 500px;
+} */
+
+.skill-btn {
+    padding: 5px 11px;
+}
+
+.card:hover {
+    border: 1px solid #d6a77b !important;
+    translate: 0 -2px;
+}
+
+.card-body a:hover,.menu a:hover {
+    color: #d6a77b !important;
+}
+
+/* .edcuation-des::after{
+    content: '';
+    height: 100px;
+    width: 2px;
+    background-color: azure;
+    position: absolute;
+    left: 0;
+    top: 9px;
+} */
